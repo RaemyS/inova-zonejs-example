@@ -1,0 +1,10 @@
+@startuml
+
+"Zone.js Kontext" -> "Zone.js Kontext": async operation
+"Zone.js Kontext" -> "Angular Change Detection": notify state changed
+"Angular Change Detection" -> "Angular Change Detection": trigger rerender
+
+"Zone.js Kontext" -> "Zone.js Kontext": async operation
+"Zone.js Kontext" -> "Angular Change Detection": notify state changed
+"Angular Change Detection" -> "Angular Change Detection": trigger rerender
+@enduml

@@ -1,0 +1,24 @@
+{
+  "name": "inova-zonejs-example",
+  "version": "1.0.0",
+  "main": "index-with-zonejs.js",
+  "type": "module",
+  "scripts": {
+    "start-without-zonejs": "node index-without-zonejs.js",
+    "start-with-zonejs": "node index-with-zonejs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaemyS/inova-zonejs-example.git"
+  },
+  "author": "Silvan Raemy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaemyS/inova-zonejs-example/issues"
+  },
+  "homepage": "https://github.com/RaemyS/inova-zonejs-example#readme",
+  "description": "",
+  "dependencies": {
+    "zone.js": "^0.15.0"
+  }
+}
